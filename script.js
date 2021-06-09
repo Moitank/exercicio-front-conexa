@@ -1,3 +1,7 @@
+function alerta () {
+    alert('Produto Cadastrado com Sucesso')
+}
+
 
 (()=> {
     (async () => {
