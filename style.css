@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 252, 209);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 30px;
+    width: 100%;
+    
+    
+    
+}
+
+.saudacao {
+    font-family: 'Roboto', sans-serif;
+}
+
+.cadastrar{
+    font-family: 'Roboto', sans-serif;
+}
+
+.botao {
+    color: red;
+    font-size: 16px;
+    margin-left: 15px;
+    height: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+
+
+
+}
+
+.cadastrar-box {
+    display: flex;
+
+}
+
+.titulo {
+    color: red;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.pesquisa {
+    text-align: center;
+    margin-bottom: 50px;
+    height: 25px;
+    
+}
+
+.input-centro {
+    text-align: center;
+}
+
+#lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 80vw;
+    margin: 0 auto;
+    padding: 30px 0 10px;
+    box-shadow: 5px 0px 5px 5px;
+}
+
+#lista li {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: calc(100% / 4 - 15px);
+    padding: 10px;
+    margin: 5px;
+    min-width: 250px;
+    min-height: 350px;
+    box-sizing: border-box;
+    background-color: rgb(187, 241, 250);
+    border: 2px solid;
+    transition: transform .2s ease-in-out;
+    
+}
+
+#lista li:hover{
+    transform: scale(1.05);
+}
+
+footer{
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    
+}
+
+@media(max-width: 720px) {
+
+    .cadastrar {
+        font-size: 16px;
+    }
+
+    .saudacao {
+        font-size: 16px;
+    }
+}
